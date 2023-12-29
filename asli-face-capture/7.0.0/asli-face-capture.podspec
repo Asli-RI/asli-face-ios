@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
     s.homepage          = 'https://www.asliri.id'
     s.platform          = :ios
     s.source            = { :http => "https://storage.googleapis.com/asli-technologies/face-core/DotCapture.zip" }
-    s.ios.deployment_target = '11.0'
+    s.ios.deployment_target = '13.0'
     s.ios.vendored_frameworks = "DotCapture/DotCapture.xcframework"
 
 end
