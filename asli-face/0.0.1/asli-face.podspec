@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
     s.platform          = :ios
     s.source            = { :http => "https://storage.googleapis.com/asli-technologies/face-core/AsliFace.zip" }
     s.ios.deployment_target = '13.0'
-    s.ios.vendored_frameworks = "AsliFace/AsliFace.xcframework"
+    s.ios.vendored_frameworks = "AsliFace.xcframework"
 
     s.ios.dependency 'asli-face-detection-fast', '7.0.0'
 end
